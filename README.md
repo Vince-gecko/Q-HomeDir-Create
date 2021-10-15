@@ -2,7 +2,7 @@
 Sample script to create homedirs on Qumulo Cluster
 
 Usage :<BR>
-./HomedirCreate.py -u <username> -q <quota>
+./HomedirCreate.py -u \<username\> -q \<quota\>
 	
 options :<BR>
 	
@@ -29,3 +29,7 @@ It will then :<BR>
 		- if passed through the command, will use this value
 		- if a quota is already defined on this directory, it won't be updated
   
+# Requires
+	
+	- qumulo_api
+	
